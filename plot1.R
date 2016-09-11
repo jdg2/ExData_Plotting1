@@ -14,6 +14,5 @@ hist(data$Global_active_power, main = "Global Active Power", col ="Red", ylab ="
 
 #save as 
 
-par(mfrow = 1)
 dev.copy(png, file = "plot1.png", height = 500, width = 500)
 dev.off()
