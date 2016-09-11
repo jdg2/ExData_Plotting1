@@ -18,6 +18,6 @@ plot(data$combined_dateTime, data$Sub_metering_1, type = "l", col = "Black", xla
 
 # Save the plot
   
-  dev.copy(png, file = "plot3.png", height = 500, width = 500)
+  dev.copy(png, file = "plot3.png", height = 400, width = 500)
   dev.off()
   
